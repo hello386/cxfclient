@@ -1,0 +1,2 @@
+改变服务器端链接地址在com\huilan\eps\webservice\service\impl\ArticleServiceImplService.java中
+将localhost:8080部分替换成实际的服务器的ip和端口号

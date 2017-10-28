@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article>
+  <resultMap>
+  	<entry>
+      <string>FORM_KEY</string>
+      <string>testAllfield</string>
+    </entry>
+	<entry>
+      <string>ENTITY_TYPE</string>
+      <string>HTML</string>
+    </entry>
+	<entry>
+      <string>TITLE</string>
+      <string>我是标题</string>
+    </entry>
+	<entry>
+      <string>CONTENT</string>
+      <string><![CDATA[新增正文开始<br/>图片<img src ="/aaa/bbb/tupian.jpg" /><br/>附件：<a href="/aaa/bbb/attch.docx" >文档1</a><br/正文结束]]></string>
+	</entry>
+    <entry>
+      <string>SHORT_TITLE</string>
+      <string>我是短标题</string>
+    </entry>
+
+	<entry>
+      <string>SUB_TITLE</string>
+      <string>我是副标题</string>
+    </entry>
+	
+	<entry>
+      <string>INFOSUMMARY</string>
+      <string>我是摘要</string>
+    </entry>
+	<entry>
+      <string>KEYWORDS</string>
+      <string>关键词1,关键词2</string>
+    </entry>
+	
+	<entry>
+      <string>SOURCE_ID</string>
+      <string>中华网</string>
+    </entry>
+	<entry>
+      <string>EDITOR_ID</string>
+      <string>1</string>
+    </entry>
+	<entry>
+      <string>EDITOR_NAME</string>
+      <string>管理员</string>
+    </entry>
+	<entry>
+      <string>END_EID</string>
+      <string>1</string>
+    </entry>
+	<entry>
+      <string>AUTHOR</string>
+      <string>管理员</string>
+    </entry>
+	<entry>
+      <string>SHOW_DATE</string>
+      <string>2014-08-20 14:01:02</string>
+    </entry>
+	<entry>
+      <string>EXPIRED_DATE</string>
+      <string>2090-01-01 00:00:00</string>
+    </entry>
+  </resultMap>
+  <attachmentList>
+    <attachment>
+      <originalName>视频1.flv</originalName>
+      <fileType>VIDEO</fileType>
+      <titlePhoto>F</titlePhoto>
+       <fileSize>6</fileSize>
+     <desc>我是描述</desc>
+    </attachment>
+    <attachment>
+      <originalName>attch.docx</originalName>
+      <fileType>ATTACHMENT</fileType>
+      <titlePhoto>F</titlePhoto>
+      <fileSize>4</fileSize>
+      <desc>我是描述</desc>
+	  <contentFileUrl>/aaa/bbb/attch.docx</contentFileUrl>
+    </attachment>
+    <attachment>
+      <originalName>JewelStand.mp3</originalName>
+      <fileType>AUDIO</fileType>
+      <titlePhoto>F</titlePhoto>
+     <fileSize>5</fileSize>
+      <desc>我是描述</desc>
+    </attachment>
+    <attachment>
+      <originalName>tupian.jpg</originalName>
+      <fileType>IMG</fileType>
+      <titlePhoto>T</titlePhoto>
+     <fileSize>2</fileSize>
+      <desc>我是描述</desc>
+	  <contentFileUrl>/aaa/bbb/tupian.jpg</contentFileUrl>
+    </attachment>
+  </attachmentList>
+</article>
